@@ -1,18 +1,24 @@
-# Packfiles Warptools
+# Warp Tools Homebrew Tap
 
-## How do I install these formulae?
+Welcome to the Packfiles Warp Homebrew Tap. This repository makes it easy to install and update local utilities related to [Packfiles Warp](https://packfiles.io).
 
-`brew install packfiles/warptools/<formula>`
+## Configuration
 
-Or `brew tap packfiles/warptools` and then `brew install <formula>`.
+To set up the tap, simply run:
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "packfiles/warptools"
-brew "<formula>"
+```
+brew tap packfiles/warptools
 ```
 
-## Documentation
+If you don't already have Homebrew, install it [here](https://brew.sh).
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+## Installing Packages
+
+### Warp Vault
+
+Installs [Warp Vault](https://vault.packfiles.io) for macOS systems.
+
+```
+brew install warp-vault
+```
+
