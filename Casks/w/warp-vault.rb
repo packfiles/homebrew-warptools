@@ -1,6 +1,6 @@
 cask "warp-vault" do
-  version "0.1.0"
-  sha256 "92ad375a8cb9fa419d251904928e205c0f8526226412df3c9a64cbb1b073a5b2"
+  version "0.1.1"
+  sha256 "6f30dce4f77928021209887c0aee30b3bf49371426db1109519b5a5c896bcb68"
 
   url "https://github.com/packfiles/warp-vault/releases/download/v#{version}/Warp_Vault-v#{version}-macOS-universal.dmg", verified: "github.com/packfiles/warp-vault/releases/"
   name "Warp Vault"
